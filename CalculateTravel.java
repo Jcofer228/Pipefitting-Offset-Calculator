@@ -93,7 +93,7 @@ public class CalculateTravel
         	return Math.sqrt(offsetSquared + runSquared);
     	}
 
-    public double calculateAngle(double offset, double run) // Calculates Angle value based on Offset and Run values 
+    private double calculateAngle(double offset, double run) // Calculates Angle value based on Offset and Run values 
 	{
         	double angleInRadians = Math.atan(offset / run);
 	        return Math.toDegrees(angleInRadians);
